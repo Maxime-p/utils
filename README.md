@@ -36,11 +36,14 @@
 ## Prettier
 
 ### .prettierrc
-```yaml
-"trailingComma": "es5",
-"tabWidth": 2,
-"semi": false,
-"singleQuote": true
+```json
+{
+  "semi": false,
+  "trailingComma": "es5",
+  "singleQuote": true,
+  "tabWidth": 2,
+  "useTabs": false
+}
 ```
 
 ### .prettierignore
