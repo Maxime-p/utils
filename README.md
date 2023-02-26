@@ -6,6 +6,7 @@
 - [Prettier](#prettier)
   - [.prettierrc](#prettierrc)
   - [.prettierignore](#prettierignore)
+- [Yarn](#yarnrcyml)
 
 ## .gitignore
 
@@ -48,4 +49,9 @@
 build
 coverage
 dist
+```
+
+## .yarnrc.yml
+```yml
+nodeLinker: node-modules
 ```
