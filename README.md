@@ -6,6 +6,7 @@
 - [Prettier](#prettier)
   - [.prettierrc](#prettierrc)
   - [.prettierignore](#prettierignore)
+- [CSS Light reset](#css-light-reset)
 - [Yarn](#yarnrcyml)
 
 ## .gitignore
@@ -52,6 +53,19 @@
 build
 coverage
 dist
+```
+
+## CSS Light reset
+```css
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ol, ul {
+  list-style: none;
+  padding: 0;
+}
 ```
 
 ## .yarnrc.yml
