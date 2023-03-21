@@ -1,6 +1,8 @@
 # README with some utils
 
 - [.gitignore](#gitignore) 
+  - [OS](#os)
+  - [IDEs](#ides)
   - [Yarn zero-install](#yarn-zero-install) 
   - [Yarn without zero-install](#yarn-without-zero-install) 
 - [Prettier](#prettier)
@@ -11,8 +13,21 @@
 
 ## .gitignore
 
+### OS
+```gitignore
+.DS_Store
+```
 
-### Yarn zero-install 
+### IDEs
+```gitignore
+# JetBrain IDE's
+.idea
+
+# VSCode
+.vscode
+```
+
+### Yarn zero-install
 ```gitignore
 .yarn/*
 !.yarn/cache
