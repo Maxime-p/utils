@@ -71,4 +71,10 @@ ol, ul {
 ## .yarnrc.yml
 ```yml
 nodeLinker: node-modules
+
+plugins:
+  - path: .yarn/plugins/@yarnpkg/plugin-typescript.cjs
+    spec: "@yarnpkg/plugin-typescript"
+
+yarnPath: .yarn/releases/yarn-3.5.0.cjs
 ```
